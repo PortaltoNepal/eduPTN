@@ -1,0 +1,22 @@
+# Setup
+title:               PortaltoNepal  
+tagline:             'Revolutionalising Nepal'
+description:         'Made by Nepal, for Nepal, in Nepal.'
+url:                 https://ghs.portaltonepal.com
+baseurl:             ''
+paginate:            5
+permalink:           /blog/:title/
+
+# About/contact
+author:
+  name:              PortaltoNepal
+  url:               https://portaltonepal.com
+  email:             support@portaltonepal.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: UA-175637145-1
