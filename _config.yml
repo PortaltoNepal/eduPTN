@@ -6,6 +6,13 @@ url:                 'https://aloks.com.np/' # Domain/Subdomain
 baseurl:              'PTN' # path
 paginate:            5
 permalink:           /blog/:title/
+collections:
+  posts:
+    permalink: "/blog/:title/"
+    output: true
+  notes:
+    permalink: "/:collection/:path/"
+    output: true
 
 # About/contact
 author:

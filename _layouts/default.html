@@ -26,6 +26,8 @@
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <script src='/public/js/script.js'></script>
+    <script src={{'/public/js/script.js' | relative_url }}></script>
+    <script src={{"/js/jquery.min.js" | relative_url }}></script>
+    {% include add-to-homescreen.html %}
   </body>
 </html>
