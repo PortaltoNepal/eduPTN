@@ -1,6 +1,6 @@
 ---
 ---
 User-agent: *
-Allow: {{ "/"" | relative_url}}
+# Allow: {{ "/"" | relative_url}}
 
 # Sitemap: {{ /sitemap.xml | absolute_url }}
