@@ -16,6 +16,12 @@ collections:
   notes:
     permalink: "/:collection/:path/"
     output: true
+defaults:
+- scope:
+    path: _board
+    type: docs
+  values:
+    layout: board
 
 # About/contact
 author:
