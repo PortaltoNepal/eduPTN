@@ -1,11 +1,11 @@
 # Setup
 title:               PortaltoNepal  
-tagline:             'Revolutionalising Nepal'
-description:         'Made by Nepal, for Nepal, in Nepal.'
-url:                 'https://aloks.com.np/' # Domain/Subdomain
-baseurl:              '' # path
+tagline:             Revolutionalising Nepal
+description:         Made by Nepal, for Nepal, in Nepal.
+url:                  # Domain/Subdomain
+baseurl:              # path
 paginate:            5
-permalink:           /blog/:title/
+# permalink:           /blog/:title/
 collections:
   posts:
     permalink: "/blog/:title/"
