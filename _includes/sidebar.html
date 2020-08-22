@@ -24,6 +24,10 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+    
+    {% for collection in site.collections %}
+          <a class="sidebar-nav-item{% if collection.url == node.url %} active{% endif %}" href="{{ collection.label | relative_url }}">{{ collection.label }}</a>
+    {% endfor %}
 
   </nav>
 
