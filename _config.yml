@@ -21,7 +21,7 @@ defaults:
     path: _board
     type: docs
   values:
-    layout: board
+    layout: page
 
 # About/contact
 author:
