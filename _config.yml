@@ -3,7 +3,7 @@ title:               PortaltoNepal
 tagline:             'Revolutionalising Nepal'
 description:         'Made by Nepal, for Nepal, in Nepal.'
 url:                 'https://aloks.com.np/' # Domain/Subdomain
-baseurl:              'PTN' # path
+baseurl:              '' # path
 paginate:            5
 permalink:           /blog/:title/
 collections:
