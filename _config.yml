@@ -10,6 +10,9 @@ collections:
   posts:
     permalink: "/blog/:title/"
     output: true
+  board:
+    permalink: "/:collection/:path/"
+    output: true
   notes:
     permalink: "/:collection/:path/"
     output: true
