@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 # Setup
-title:               Education Nepal  
+title:               Education in Nepal  
 tagline:             Revolutionalising Nepal
 description:         Education Portal to Nepal - Made by Nepali/Nepalese, for Nepal, in Nepal. #>- # this means to ignore newlines until "baseurl:"
 
