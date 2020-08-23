@@ -38,7 +38,7 @@ collections:
   board:
     permalink: "/:collection/:path/"
     output: true
-  notes:
+  note:
     permalink: "/:collection/:path/"
     output: true
 defaults:
@@ -47,6 +47,12 @@ defaults:
     type: docs
   values:
     layout: page
+- scope:
+    path: _note
+    type: docs
+  values:
+    layout: post
+    category: note
 
 # About/contact
 author:
