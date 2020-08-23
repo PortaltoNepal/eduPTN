@@ -20,8 +20,7 @@
 # Setup
 title:               Education Nepal  
 tagline:             Revolutionalising Nepal
-description:         >- # this means to ignore newlines until "baseurl:"
-Education Portal to Nepal - Made by Nepali/Nepalese, for Nepal, in Nepal.
+description:         Education Portal to Nepal - Made by Nepali/Nepalese, for Nepal, in Nepal. #>- # this means to ignore newlines until "baseurl:"
 
 url:                  # the base hostname & protocol for your site, e.g. http://example.com
 baseurl:              # the subpath of your site, e.g. /blog
