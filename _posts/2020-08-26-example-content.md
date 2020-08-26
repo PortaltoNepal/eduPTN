@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example content
-published: true
+published: false
 ---
 
 <div class="message">Howdy! This is an example blog post that shows several types of HTML content supported in this theme.</div>
@@ -23,6 +23,7 @@ HTML defines a long list of available inline tags, a complete list of which can 
 * ~~Deleted~~ text should use `<del>` and
 
   <ins>inserted</ins> text should use `<ins>`.
+
 * Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
 
 Most of these elements are styled by browsers with few modifications on our part.
@@ -73,7 +74,6 @@ Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo r
 Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 | Name | Upvotes | Downvotes |
-| --- | --- | --- |
 | --- | --- | --- |
 | Totals | 21 | 23 |
 | Alice | 10 | 11 |
