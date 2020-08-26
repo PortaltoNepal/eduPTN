@@ -51,7 +51,7 @@ defaults:
     path: _note
     type: docs
   values:
-    layout: post
+    layout: page
     category: note
 
 # About/contact
