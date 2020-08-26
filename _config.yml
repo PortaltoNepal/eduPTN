@@ -39,7 +39,7 @@ collections:
     permalink: "/:collection/:path/"
     output: true
   note:
-    permalink: "/:collection/:slug/"
+    permalink: "/:collection/:title/"
     output: true
 defaults:
 - scope:
