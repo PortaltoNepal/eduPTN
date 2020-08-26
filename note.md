@@ -11,10 +11,10 @@ permalink: "/note/"
         {{ post.title }}
       </a>
 
-    {{ post.content }}
-  </div>
+    {{ post.content |truncate_words:20}}
+  </li>
   {% endfor %}
-</div>
+</ul>
 
 
 <div class="pagination">
