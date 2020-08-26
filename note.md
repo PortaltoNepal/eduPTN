@@ -4,21 +4,18 @@ title: "Notes"
 permalink: "/note/"
 ---
 
-<div class="posts">
+<ul class="posts">
   {% for post in site.note %}
-  <div class="post">
-    <h1 class="post-title">
+  <li>
       <a href="{{ post.url | relative_url }}">
         {{ post.title }}
       </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.content }}
   </div>
   {% endfor %}
 </div>
+
 
 <div class="pagination">
   {% if paginator.next_page %}
