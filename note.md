@@ -5,7 +5,7 @@ permalink: "/note/"
 ---
 
 <div class="posts">
-  {% for post in paginator.notes %}
+  {% for post in site.notes %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url | relative_url }}">
