@@ -11,7 +11,7 @@ permalink: "/note/"
         {{ post.title }}
       </a>
 
-    {{ post.content |truncate_words:20}}
+    {{ post.content |truncate:200}}
   </li>
   {% endfor %}
 </ul>
