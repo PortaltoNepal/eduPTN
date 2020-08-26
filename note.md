@@ -5,7 +5,7 @@ permalink: "/note/"
 ---
 
 <div class="posts">
-  {% for post in site.notes %}
+  {% for post in site.note %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url | relative_url }}">
