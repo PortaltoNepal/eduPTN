@@ -32,24 +32,24 @@ social:
     youtube:  
 
 collections:
-  posts:
-    permalink: "/blog/:title/"
-    output: true
-  board:
-    permalink: "/:collection/:path/"
-    output: true
-  note:
+#   posts:
+#     permalink: "/blog/:title/"
+#     output: true
+#   board:
+#     permalink: "/:collection/:path/"
+#     output: true
+  notes:
     permalink: "/:collection/:title/"
     output: true
 defaults:
+# - scope:
+#     path: _board
+#     type: docs
+#   values:
+#     layout: page
 - scope:
-    path: _board
-    type: docs
-  values:
-    layout: page
-- scope:
-    path: _note
-    type: note
+    path: _notes
+    type: notes
   values:
     layout: page
     category: note
