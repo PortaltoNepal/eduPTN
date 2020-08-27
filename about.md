@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+published: False
 ---
 
 <p class="message">
