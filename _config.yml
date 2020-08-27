@@ -51,7 +51,7 @@ defaults:
     path: _notes
     type: notes
   values:
-    layout: blog
+    layout: post
     category: notes
 
 # About/contact
