@@ -9,11 +9,10 @@ permalink: "/notes/"
   <li>
       <a href="{{ post.url | absolute_url }}">
         {{ post.title }}
-      </a>
-
-    {{ post.content |truncate:200}}
+      </a>: {{ post.content |truncate:200}}
   </li>
   {% endfor %}
+  
 </ul>
 
 
