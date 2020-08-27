@@ -5,7 +5,7 @@ permalink: "/notes/"
 ---
 
 <ul class="posts">
-  {% for post in site.note %}
+  {% for post in site.notes %}
   <li>
       <a href="{{ post.url | relative_url }}">
         {{ post.title }}
