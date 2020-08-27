@@ -49,7 +49,7 @@ defaults:
     layout: page
 - scope:
     path: _note
-    type: docs
+    type: note
   values:
     layout: page
     category: note
