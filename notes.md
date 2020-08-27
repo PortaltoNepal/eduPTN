@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Notes"
+permalink: /notes
 ---
 
 <ul class="posts">
