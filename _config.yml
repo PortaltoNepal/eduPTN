@@ -52,7 +52,7 @@ defaults:
     type: notes
   values:
     layout: page
-    category: note
+    category: notes
 
 # About/contact
 author:
