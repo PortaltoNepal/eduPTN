@@ -2,7 +2,7 @@
 ---
 {
   "background_color": "purple",
-  "description": {{site.description}},
+  "description": "{{site.description}}",
   "display": "fullscreen",
   "icons": [
     {
@@ -11,8 +11,8 @@
       "type": "image/png"
     }
   ],
-  "name": {{site.title}},
-  "short_name": {{site.title}},
+  "name": "{{site.title}}",
+  "short_name": "{{site.title}}",
   "start_url": "/",
   "theme_color": "#317EFB"
 }
