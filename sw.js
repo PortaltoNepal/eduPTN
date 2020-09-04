@@ -5,7 +5,7 @@ self.addEventListener('install', function(e) {
    caches.open('edu-PTN').then(function(cache) {
      return cache.addAll([
        '{{"/"|absolute_url}}',
-       '{{"/notes"|absolute_url}}'
+       '{{"/notes/"|absolute_url}}'
      ]);
    })
  );
