@@ -13,6 +13,6 @@
   ],
   "name": "{{site.title}}",
   "short_name": "{{site.title}}",
-  "start_url": "/",
+  "start_url": "/notes",
   "theme_color": "#317EFB"
 }
