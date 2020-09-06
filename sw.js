@@ -1,6 +1,6 @@
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('fox-store').then(function(cache) {
+   caches.open('eduPTN').then(function(cache) {
      return cache.addAll([
          '/',
        '/notes/'
