@@ -1,11 +1,9 @@
----
----
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('edu-PTN').then(function(cache) {
+   caches.open('fox-store').then(function(cache) {
      return cache.addAll([
-       '{{"/"|absolute_url}}',
-       '{{"/notes/"|absolute_url}}'
+         '/',
+       '/notes/'
      ]);
    })
  );
