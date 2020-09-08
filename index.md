@@ -4,4 +4,4 @@ title: Home
 ---
 # Welcome to Education Portal to Nepal
 ## Universities 
-## [Notes]({{"/notes" | relative_url})
+## [Notes]({{"/notes" | relative_url}})
