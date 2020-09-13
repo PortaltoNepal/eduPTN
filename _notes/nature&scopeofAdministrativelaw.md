@@ -1,3 +1,9 @@
+---
+subject: Administrative Law
+course: LLB
+university: PU
+title: 'Nature-Scope-and-Source-of-Administrative-Law'
+---
 ## Administrative Law
 ### Definition and Nature
 Administrative law is the law relating public administration. It is concerned with the legal forms and constitutional status of public authorities; with their powers and duties and with the procedures followed in exercising them; with their legal relationships with one another, with the public and with their employees; which seek, in varied ways, to control their activities.
