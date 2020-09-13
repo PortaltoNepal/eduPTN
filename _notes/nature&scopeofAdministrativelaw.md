@@ -2,7 +2,7 @@
 subject: Administrative Law
 course: LLB
 university: PU
-title: 'Nature-Scope-and-Source-of-Administrative-Law'
+title: 'Nature, Scope and Source of Administrative Law'
 ---
 ## Administrative Law
 ### Definition and Nature
